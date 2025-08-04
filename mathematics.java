@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 
 public class mathematics {
     public static void main(String[] args) {
@@ -19,5 +19,13 @@ public class mathematics {
                         System.out.println(result4);
                             System.out.println(result5);
                                 System.out.println(result6);
-    }
+Scanner scan = new Scanner(System.in);
+System.out.println("enter the base and height of triangle");
+double a = scan.nextDouble();
+double b = scan.nextDouble();
+double c = Math.sqrt(Math.pow(a,2) + Math.pow(b , 2) );
+System.out.println("hypotenuse is " + c);
+scan.close();
+   4
+                            }
 }
