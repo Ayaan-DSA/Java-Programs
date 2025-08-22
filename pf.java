@@ -10,9 +10,6 @@ public class pf {
         System.out.printf("Im %d years old \n", age);
         System.out.printf("my height is %f inches \n" , height);
         System.out.printf("Employed : %b \n", IsEmployed);
-        
 
-
-    }
-    
+    }   
 }
