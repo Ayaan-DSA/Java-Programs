@@ -25,11 +25,6 @@ double a = scan.nextDouble();
 double b = scan.nextDouble();
 double c = Math.sqrt(Math.pow(a,2) + Math.pow(b , 2) );
 System.out.println("hypotenuse is " + c);
-
-
-
-
 scan.close();
-   
-                            }
+   }
 }
